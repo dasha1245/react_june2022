@@ -1,0 +1,37 @@
+.card{
+    width: 380px;
+    margin: 10px;
+    border: 1px solid black;
+}
+.head_img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.id{
+    width: 35px;
+    height: 35px;
+    margin: auto 10px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+}
+.info{
+    margin-left: 40px;
+    text-align: left;
+}
+.text{
+    color: goldenrod;
+}
+.nameCharacter{
+    width: 300px;
+    text-align: center;
+}
