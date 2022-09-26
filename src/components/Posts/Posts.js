@@ -7,12 +7,13 @@ const Posts = () => {
 
     const location = useLocation()
     const {state: post} = location;
+    console.log(post);
 
     const [posts, setPosts] = useState([])
 
     useEffect(()=>{
         postsService.getById(post.id).then(value => setPosts(value.data))
-    },[])
+    },[post.id])
 
     return (
         <div>

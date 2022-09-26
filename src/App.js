@@ -7,15 +7,16 @@ import {
 } from "react-router-dom";
 
 import {Todos, HomePage, Albums, Comments, Posts} from "./components";
+import css from './style/NavigateBar.module.css'
 
 function App() {
   return (
     <div>
         <ul>
-            <li><Link to={'/'}>Home</Link></li>
-            <li><Link to={'/todos'}>To Do list</Link></li>
-            <li><Link to={'/albums'}>Albums</Link></li>
-            <li><Link to={'/comments'}>Comments</Link></li>
+            <li className={css.NavigateBar}><Link to={'/'}>Home</Link></li>
+            <li className={css.NavigateBar}><Link to={'/todos'}>To Do list</Link></li>
+            <li className={css.NavigateBar}><Link to={'/albums'}>Albums</Link></li>
+            <li className={css.NavigateBar}><Link to={'/comments'}>Comments</Link></li>
         </ul>
         <hr/>
         <Routes>
