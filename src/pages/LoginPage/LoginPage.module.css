@@ -1,0 +1,22 @@
+.LoginPage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.input {
+    margin: 10px;
+}
