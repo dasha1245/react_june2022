@@ -1,0 +1,11 @@
+.Header{
+    height: 30px;
+    background: rgba(192, 192, 192, 0.81);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.btns{
+    margin: 5px;
+}
