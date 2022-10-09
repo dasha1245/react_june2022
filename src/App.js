@@ -1,9 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+
+import {MainLayout} from "./Layout";
 
 function App() {
   return (
     <div>
+      <MainLayout/>
     </div>
   );
 }
